@@ -7,7 +7,7 @@
   <project path="gateway/IgniteGreenhouseGateway"
            name="IoT-Ignite/IgniteGreenhouseGateway.git" remote="github" />
 
-    <project path="apps/IITR"
+   <project path="apps/IITR"
            name="KMACEL/IITR.git" remote="github" />
 
 </manifest>
