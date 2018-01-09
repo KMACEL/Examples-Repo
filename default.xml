@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default revision="master" remote="origin" />
+	<remote name="origin" fetch="https://github.com/KMACEL"/>
+	
+  <project path="apps/IITR"
+           name="IITR" remote="origin" />
+
+  <project path="apps/gogenux"
+           name="gogenux" remote="origin" />
+</manifest>
