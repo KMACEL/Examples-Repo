@@ -12,7 +12,9 @@
            name="IoT-Ignite/IgniteGreenhouseGateway.git" remote="github" />
 
   <project path="apps/IITR"
-           name="KMACEL/IITR.git" remote="github" />
+           name="KMACEL/IITR.git" remote="github" >
+           <copyfile src="main.go" dest="main.go" />
+  </project>
 
   <project path="apps/TZBT"
            name="app/TZ-BL04_BLE_Example" remote="gerrit" />
