@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote  name="github"
+  <remote  name="github"
 	fetch="git://github.com" />
-  <default revision="master" remote="github" />
+
+  <remote  name="gerrit"
+        fetch="ssh://mert.acel@gerrit.ardictech.com:29418/common" />
+
+  <default revision="master" remote="github" sync-c="true" sync-j="4" />
 	
   <project path="gateway/IgniteGreenhouseGateway"
            name="IoT-Ignite/IgniteGreenhouseGateway.git" remote="github" />
 
-   <project path="apps/IITR"
+  <project path="apps/IITR"
            name="KMACEL/IITR.git" remote="github" />
+
+  <project path="apps/TZBT"
+           name="app/TZ-BL04_BLE_Example" remote="gerrit" />
+
 
 </manifest>
