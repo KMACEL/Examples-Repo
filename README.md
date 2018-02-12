@@ -115,6 +115,13 @@ repo upload .
 repo start master
 ```
 
+## Create Repo Mirror
++ With a repoyu, you can get your own computer with all the git projects. Then you can make a project clone of that repo and make a repoya commit. For this you only need to add the "--mirror" command to the "repo init" command you need to do.
+```
+ repo init -u https://github.com/KMACEL/Examples-Repo.git -b master -m default.xml --mirror
+```
+
+
 ## Reference Links
 
 | Links     |
